@@ -18,8 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+
+    NSLog(@"LJ modefy~~~~~~");
+    NSLog(@"LJ modefy~~~~~~");
+    NSLog(@"LJ modefy~~~~~~");
+    NSLog(@"LJ modefy~~~~~~");
+    NSLog(@"LJ modefy~~~~~~");
+
     
     NSLog(@"修改文件");
+
 }
 
 - (void)didReceiveMemoryWarning {
