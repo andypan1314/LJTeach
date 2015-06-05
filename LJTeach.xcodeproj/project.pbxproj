@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1514FAD1B21D04300D5430E /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1514FAC1B21D04300D5430E /* NewVC.m */; };
 		A178319F1B21CBDE00C51120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A178319E1B21CBDE00C51120 /* main.m */; };
 		A17831A21B21CBDE00C51120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17831A11B21CBDE00C51120 /* AppDelegate.m */; };
 		A17831A51B21CBDE00C51120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17831A41B21CBDE00C51120 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1514FAB1B21D04300D5430E /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
+		A1514FAC1B21D04300D5430E /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
 		A17831991B21CBDE00C51120 /* LJTeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJTeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A178319D1B21CBDE00C51120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A178319E1B21CBDE00C51120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				A17831A11B21CBDE00C51120 /* AppDelegate.m */,
 				A17831A31B21CBDE00C51120 /* ViewController.h */,
 				A17831A41B21CBDE00C51120 /* ViewController.m */,
+				A1514FAB1B21D04300D5430E /* NewVC.h */,
+				A1514FAC1B21D04300D5430E /* NewVC.m */,
 				A17831A61B21CBDE00C51120 /* Main.storyboard */,
 				A17831A91B21CBDE00C51120 /* Images.xcassets */,
 				A17831AB1B21CBDE00C51120 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17831A51B21CBDE00C51120 /* ViewController.m in Sources */,
+				A1514FAD1B21D04300D5430E /* NewVC.m in Sources */,
 				A17831A21B21CBDE00C51120 /* AppDelegate.m in Sources */,
 				A178319F1B21CBDE00C51120 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				A17831BE1B21CBDE00C51120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A17831BF1B21CBDE00C51120 /* Build configuration list for PBXNativeTarget "LJTeachTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				A17831C11B21CBDE00C51120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
